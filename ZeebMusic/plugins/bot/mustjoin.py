@@ -5,7 +5,7 @@ from ZeebMusic import app
 
 #--------------------------
 
-MUST_JOIN = "RuangZeeb"
+MUST_JOIN = "dotzstorereall"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
